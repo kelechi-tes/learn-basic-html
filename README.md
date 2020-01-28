@@ -9,7 +9,9 @@ HOW TO SET UP TEXT EDITOR!!!
 To set up text editor (VSCode or any other code text editor):
 1. Download to your PC and install.
 2. Next create html file by ending file name with .html (e.g basic.html)
+Copy and paste HTML code there.
 3. Then create CSS file by ending file name with .css (e.g styledoc.css)
+Copy and paste CSS code there.
 4. Link CSS file to the HTML file by adding a link tag in the HTML code. 
    Remember, link has no closing tag.
 
