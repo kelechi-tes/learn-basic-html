@@ -1,0 +1,172 @@
+<!DOCTYPE html>                                        <!--This is the first line of code when writing an HTML document-->
+
+<html>                                                 <!--After !DOCTYPE html comes the html opening and closing tag. 
+                                                           Every code is housed in this tag. -->
+
+    <head>                                             <!--HEAD: This contains the website title, CSS and text style links.-->
+
+        <title>Tea Cozy</title>                        <!--TITLE: This is the title of the page. The content appears on the browser tabs, needs no styling-->
+
+        <link rel="stylesheet" href="style.css">       <!--LINK: This is to link the style sheet (CSS FILE) to the website. 
+                                                           Link has no closing tag.'href' is equated to the CSS file name.-->
+    </head>
+    <body>
+
+        <!--Header-->
+        <header>                                       <!--HEADER: This is a semantic HTML tag. It represents a container 
+                                                           used to indicate introductory content.-->
+
+            <div class="title">                        <!--DIV: Using div is like creating a box-like container in HTML. It can be used instead of semantic tags. -->
+
+                <a href="#"><img class="logo" src="/Users/user/Downloads/img-tea-cozy-logo.png" alt="logo" /></a>  <!--a (ANCHOR) TAG: When you wish to add a clickable link to your website use the anchor (a) tag. 
+                                                                                                                    From this line of code, the image has been made into a link by housing it in an anchor tag. 
+                                                                                                                    To turn any content on a webisite into a link, house it in an anchor tag.-->
+                <nav class="title">                      <!--NAV: This is also a semantic tag. Other semantic tag 
+                                                          include: ARTICLE, FOOTER, SECTION, ASIDE. They are containers 
+                                                          used to categorize website page content. Therefore, instead of 
+                                                          using div as containers - which tells us nothing about what category 
+                                                          the content belongs to, semantic tags helps to organise page content in HTML making it understandable and easier to edit-->
+                    
+                    <span>Mission</span>                <!--SPAN: element is a generic inline container for phrasing content, 
+                                                           which does not inherently represent anything. It can be used to group elements for styling purposes -->
+                    <span>Featured Tea</span>
+                    <span>Locations</span>            
+
+                
+                </nav>
+            </div>
+        </header>
+        <!--Main-->
+        <main>
+            <!--Top page-->
+            <div class="mission statement">            <!--CLASS: The class is an attribute which specifies 
+                                                        one or more class names for an HTML element. 
+                                                        Here 2 class names are used, 'mission' and  'statement'. 
+                                                        You can repeat class name in the same html file. 
+                                                        This is done if multiple html element would require 
+                                                        the same styling to avoid repetition -->
+                <div class="top">
+                    <div class="top-background">
+                        <h2>Our Mission</h2>          <!--h1,h2,...,h6 TAG: Just like in MS DOc, this represents page headings 
+                                                      of different sizes, with h1 largest font size and h6 smallest.
+                                                      Their default style comes with bold font weight and block format, 
+                                                      meaning you can't have other content (text or images) appear side by side 
+                                                      unless by styling with CSS. -->
+                        <h4>Handpicked, Artisanally Curated, Free Range, Sustainable,
+                            Small Batch, Fair Trade, Organic Tea
+                        </h4>
+                    </div>
+                </div>
+            </div>
+                    
+
+            <!--Mid Page-->
+            <div class="month">
+                <div class="house">
+                    <div class="top-background">      <!--The class used here has just one class name 'top-background' NOT two. 
+                                                      When creating one class name but wish to use more than one word, 
+                                                      use a hyphen (-) to separate words -->
+                        <h2>Tea of the Month</h2>
+                        <h4>What's Steeping at The Tea img-tea-cozy-logo</h4>
+                    </div>
+                    <div class="img-tea">
+                        <div class="berry">
+                            <div class="img">
+                               <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg" alt=""> 
+                            </div>
+                            <h4>Fall Berry Blitz Tea</h4>
+                        </div>
+                        <div class="rum">
+                            <div class="img">
+                                <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg" alt="">
+                            </div>
+\                           <h4>Spiced Rum Tea</h4>
+                        </div>
+                        <div class="donuts">
+                            <div class="img">                           
+                               <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg" alt=""> 
+                            </div>                           
+                            <h4>Seasonal Donuts</h4>
+                        </div>
+                        <div class="ave">
+                            <div class="img">
+                               <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg" alt=""> 
+                            </div>                           
+                            <h4>Myrtle Ave Tea</h4>
+                        </div>
+                        <div class="bedford">
+                            <div class="img">        <!--'img' here is a class and NOT a tag-->
+                               <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg" alt=""> 
+                            </div>                          
+                            <h4>Bedford Bizarre Tea</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+
+            
+
+            <!--Bottom Page-->
+            <div class="locations">
+                <div class="liv">
+                    <div class="text-locate">
+                        <h2>Locations</h2>
+                    </div>
+                    <div class="box-container">
+                        <div class="box">
+                            <h3>Downtown</h3>
+                            <h4>384 West 4th St </h4><h4>Suite 108</h4> <h4>Portland, Maine</h4>
+                        </div>
+                        <div class="box">
+                            <h3>East Bayside</h3>
+                            <h4>3433 Phisherman's Avenue</h4><h4>(Northwest Corner)</h4><h4>Portland, Maine</h4>
+                        </div>
+                        <div class="box">
+                            <h3>Oakdale</h3>
+                            <h4>515 Cresent Avenue</h4><h4>Second Floor</h4><h4>Portland, Maine</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Lowest Page-->
+            <div class="contact">
+                <div class="cozy">
+                    <h2>The Tea Cozy</h2>
+                    <h5>contact@theteacozy.com</h5>
+                    <h5>917-558904</h5>
+                </div>
+            </div>
+
+            <!--Footer-->
+            <footer>
+                <div class="footer">
+                    <h5>copyright The Tea Cozy 2017</h5>
+                </div>
+
+            </footer>
+            
+        </main>
+    </body>
+</html>                                  
+
+
+
+<!--IMPORTANT TIPS-->
+<!--1. You can create containers using div or semantic tags.
+
+    2. Steps to writing a HTML DOC. Start with <!DOCTYPE html>, 
+       then html opening and closing tag <html></html>, 
+       inside the tag create head tag <head></head>, create your title and link tag inside the head tag,
+       create the body tag <body></body> outside the head tag but inside the html tag.
+
+    3.  Basic HTML elements are: 
+          -   text header(h1 to h6)
+          -   A paragraph, the <p> tag.
+          -   A horizontal ruler, the <hr> tag.
+          -   A link, denoted using the <a> (anchor) tag.
+          -   A list, the <ul> (unordered list), <ol> (ordered list) and <li> (list element) tags.
+          -   An image, the <img> tag
+          -   A divider, the <div> tag
+          -   A text span, the <span> tag -->
